@@ -31,7 +31,7 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                products, especially in the realm of  &nbsp;
+               especially in the realm of  &nbsp;
                 <b className="purple">
                   Cybersecurity.
                 </b>  , where I’m eager to contribute to making the digital world safer.{" "}
