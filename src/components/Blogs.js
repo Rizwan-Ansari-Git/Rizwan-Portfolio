@@ -19,6 +19,19 @@ function Blogs() {
           Here are a few blogs I've added on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCards
+            //   imgPath={editor}
+              isBlog={false}
+              title="MySQL vs MongoDB: Choosing the Right Database for Your Application"
+              description="When selecting a database for your application, understanding the differences between MySQL and MongoDB is crucial.MySQL is a relational database management system (RDBMS) that uses structured query language (SQL) for database access. It's ideal for applications requiring complex queries, ACID compliance, and transactions."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://www.linkedin.com/pulse/mysql-vs-mongodb-choosing-right-database-your-rizwan-ansari-rgvjf/?trackingId=x5iBAbE%2BT6uYEHWKt88wJg%3D%3D"
+              CardType="Blogs"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCards
             //   imgPath={chatify}
@@ -43,17 +56,7 @@ function Blogs() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCards
-            //   imgPath={editor}
-              isBlog={false}
-              title="CI/CD Pipeline"
-              description="Continuous Integration (CI) and Continuous Deployment (CD) are essential practices in modern software development, aimed at automating and improving the process of software delivery."
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://react-ecommerce-smoky-eta.vercel.app/"
-              CardType="Blogs"              
-            />
-          </Col> */}
+          
 
           {/* <Col md={4} className="project-card">
             <ProjectCards
