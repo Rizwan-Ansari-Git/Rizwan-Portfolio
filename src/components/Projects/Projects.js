@@ -21,17 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Marketing Website"
-              description="Your go-to platform for seamless communication and collaboration. Whether you're staying connected with friends or sharing resources, our chat app offers fast, secure, and real-time messaging. Built with cutting-edge technologies, it delivers an intuitive experience with features like instant messaging."
-              // ghLink="https://github.com/Rizwan-Ansari-Git/Marketing-Website"
-              demoLink="https://marketing-website-psi-one.vercel.app/"
-               CardType="Demo"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -66,6 +56,29 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://modern-website-kykm.vercel.app/"
                 CardType="Demo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Ticketing Tool"
+              description="A ticketing tool (or ticketing system) is a software application that helps organizations manage and track customer support requests, IT incidents, or internal issues. These tools streamline communication, prioritize tasks, and enhance overall productivity. Here’s a detailed overview of ticketing tools, including their features, benefits, and popular examples:"
+              // ghLink="https://github.com/Rizwan-Ansari-Git/Marketing-Website"
+              demoLink="https://ticketing-tool-52i7-9upkp2vfl-rizwan-ansaris-projects-46adf820.vercel.app/"
+               CardType="Demo"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Marketing Website"
+              description="Your go-to platform for seamless communication and collaboration. Whether you're staying connected with friends or sharing resources, our chat app offers fast, secure, and real-time messaging. Built with cutting-edge technologies, it delivers an intuitive experience with features like instant messaging."
+              // ghLink="https://github.com/Rizwan-Ansari-Git/Marketing-Website"
+              demoLink="https://marketing-website-psi-one.vercel.app/"
+               CardType="Demo"
             />
           </Col>
 {/* 
