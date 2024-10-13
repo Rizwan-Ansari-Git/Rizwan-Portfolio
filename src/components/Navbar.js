@@ -92,11 +92,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://www.linkedin.com/pulse/core-concept-you-need-know-react-rizwan-ansari-ymizf/?trackingId=wCO0Cv%2Fym37xvVytheiFYw%3D%3D"
                 otarget="_blank"
                 rel="noreferrer"
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item> */}
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
