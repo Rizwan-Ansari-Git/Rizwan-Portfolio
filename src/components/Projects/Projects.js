@@ -21,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Invoie Generator"
+              description="An Invoice Generator is a simple tool that creates invoices for businesses or individuals.This tool ensures efficiency by automating calculations and providing a downloadable invoice format, streamlining the billing process for users."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://invoice-generator-three-beryl.vercel.app/"
+                CardType="Demo"
+            />
+          </Col>
           
 
           <Col md={4} className="project-card">
